@@ -48,12 +48,15 @@ $(document).ready(function() {
 //if current hour is === userhour, add present class to row element. 
 //if current hour is > userhour, add past class to row element
 var currentHour = moment().hour();
-var userHour = $(this).attr("id");
-console.log(this)
+console.log(currentHour)
+
+
 function colors() {
-    
+   
     $(".time-block").each(function() {
-console.log(this)
+        var userHour = $(this).parents().attr("id");
+        console.log(userHour)
+        console.log(this)
         if (userHour < currentHour) {
             $(this).addClass("past")
         } else if (userHour > currentHour) {
