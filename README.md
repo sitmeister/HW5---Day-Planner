@@ -10,7 +10,7 @@ In this assignment, we were given the task to create a daily scheduler. The func
 * Bootstrap
 
 ## Webpage
-![Day Planner](assets/Images/screencapture.png)
+![Day Planner](assets/Images/screencapturefixed.png)
 
 ## Link to webpage
 **[Day Planner](https://sitmeister.github.io/HW5---Day-Planner/)**
